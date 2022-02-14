@@ -23,7 +23,7 @@ The database can be any open source relational database of your choice.
 
 ## How to run it
 
-This script loads json information in a MySQL table, so it is required to have internet access and a MySQL database running in localhost.
+This script loads json information in a MySQL table, so it is required to have internet access and a MySQL database running in localhost (usr->root, pwd->admin123).
 
 For running the script simply execute it: `python.exe gelato_assignment.py`.
 
