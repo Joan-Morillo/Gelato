@@ -19,3 +19,12 @@ The solution has to be as automated as possible in all the steps, including data
 The solution has to be prepared to deal with incomplete/wrong/missing data. (e.g. discard incomplete rows)
 
 The database can be any open source relational database of your choice.
+
+
+## How to run it
+
+This script loads json information in a MySQL table, so it is required to have internet access and a MySQL database running in localhost.
+
+For running the script simply execute it: `python.exe gelato_assignment.py`.
+
+Also, you can pass the json url to be loaded and the table destination for this dataset: `python.exe gelato_assignment.py [url_to_json_file] [destination_table]`
